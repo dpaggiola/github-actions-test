@@ -1,8 +1,7 @@
 name: dotnet-build
 on:
-  push:
   pull_request:
     branches: [master]
-    paths:
-    - '**/*.csproj'
-    - '**/*.sln'
+      paths:
+        - '**/*.csproj'
+        - '**/*.sln'
